@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #DE0132;
+  min-height: 60px;
+}
+
+.navlink {
+  color: white;
+  font-size: 30px;
+}
