@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-train-child-wagon',
@@ -11,5 +11,10 @@ export class TrainChildWagonComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  // This number will be passed down from the TrainParentComponent
+  @Input() passangerCount: number;
+
+
 
 }

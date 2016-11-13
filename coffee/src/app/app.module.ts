@@ -4,8 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { TrainChildWagonComponent } from './train-child-wagon/train-child-wagon.component';
-import { TrainParentComponent } from './train-parent/train-parent.component';
+import { TrainChildWagonComponent } from './example-1/train-child-wagon/train-child-wagon.component';
+import { TrainParentComponent } from './example-1/train-parent/train-parent.component';
 
 @NgModule({
   declarations: [
