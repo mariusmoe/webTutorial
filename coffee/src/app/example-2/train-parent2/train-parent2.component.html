@@ -1,10 +1,12 @@
-<p>
-  {{this.train}}
-</p>
+<div class="parent-train">
+    <p class="parent-text" *ngFor="let t of train">
+      {{t}}
+    </p>
 
-<!-- Remember to add the method that the event emitter calls in the html surrounded with parenthesis -->
-<app-train-child-wagon2
-  *ngFor="let wagon of availableWagons"
-  [name]="wagon"
-  (addCart)="addCart($event)">
-</app-train-child-wagon2>
+    <!-- Remember to add the method that the event emitter calls in the html surrounded with parenthesis -->
+    <app-train-child-wagon2
+    *ngFor="let wagon of availableWagons"
+    [name]="wagon"
+    (addCart)="addCart($event)">
+    </app-train-child-wagon2>
+</div>
