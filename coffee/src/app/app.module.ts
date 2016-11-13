@@ -6,18 +6,23 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar.component';
+import { TrainChildWagonComponent } from './example-1/train-child-wagon/train-child-wagon.component';
+import { TrainParentComponent } from './example-1/train-parent/train-parent.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    TrainChildWagonComponent,
+    TrainParentComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     RouterModule.forRoot([
-      
+
     ])
   ],
   providers: [],
