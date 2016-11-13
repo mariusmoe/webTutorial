@@ -22,7 +22,15 @@ import { TrainParentComponent } from './example-1/train-parent/train-parent.comp
     FormsModule,
     HttpModule,
     RouterModule.forRoot([
-
+      {
+        path: '',
+        redirectTo: '/train-parent',
+        pathMatch: 'full'
+      },
+      {
+        path: "train-parent",
+        component: TrainParentComponent
+      }
     ])
   ],
   providers: [],
