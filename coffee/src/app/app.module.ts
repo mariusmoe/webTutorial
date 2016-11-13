@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { TrainChildWagonComponent } from './train-child-wagon/train-child-wagon.component';
+import { TrainParentComponent } from './train-parent/train-parent.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TrainChildWagonComponent,
+    TrainParentComponent
   ],
   imports: [
     BrowserModule,
