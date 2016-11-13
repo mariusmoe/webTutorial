@@ -2,6 +2,14 @@
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -14,4 +22,8 @@
 .navlink {
   color: white;
   font-size: 30px;
+}
+
+.navlink:hover {
+  color: #f0a5ff;
 }
