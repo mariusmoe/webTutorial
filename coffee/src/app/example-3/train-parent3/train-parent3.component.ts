@@ -12,4 +12,14 @@ export class TrainParent3Component implements OnInit {
   ngOnInit() {
   }
 
+  train: string[] = []
+
+  availableWagons: string[] = ['passangerCart', 'cargoCart', 'foodCart', 'coofeeCart'];
+
+
+  addCart(cartName: string){
+    this.train.push(cartName);
+  }
+
+
 }

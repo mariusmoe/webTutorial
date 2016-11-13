@@ -15,7 +15,7 @@ export class TrainChildWagon2Component implements OnInit {
   @Input() name: string;
 
   // Send the name of the added wagon
-  @Output() addCart = new EventEmitter<string>();;
+  @Output() addCart = new EventEmitter<string>();
 
 
   addThisCart(cartName: string) {

@@ -1,5 +1,9 @@
-<p>
-  train-parent3 works!
-</p>
-<app-info-box></app-info-box>
-<app-train-child-wagon3></app-train-child-wagon3>
+<div class="border-around">
+  <p>
+    train-parent3 works!
+  </p>
+  <app-train-child-wagon3
+    *ngFor="let wagon of availableWagons"
+    [name]="wagon">
+  </app-train-child-wagon3>
+</div>
