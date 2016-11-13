@@ -34,6 +34,10 @@ import { TrainChildWagon2Component } from './example-2/train-child-wagon2/train-
       {
         path: "train-parent",
         component: TrainParentComponent
+      },
+      {
+        path: "train-parent2",
+        component: TrainParent2Component
       }
     ])
   ],
