@@ -7,6 +7,6 @@ Install node first on your computer, and check if you have NPM by writing `npm -
 Angular CLI can be installed by node with the following: `npm install -g angular-cli`. You might need to use SUDO for authentication.
 
 Then you need to clone this git repo `git clone https://github.com/mariusmoe/webTutorial.git`.  
-When you have cloned the repo, enter *webTutorial/train-app* in your console and type in `npm install`.
+When you have cloned the repo, enter `cd webTutorial/train-app` in your console and type in `npm install`.
 
 To run the angular app use the command `ng serve`.
