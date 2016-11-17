@@ -11,10 +11,4 @@ export class TrainChildWagonComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  // This number will be passed down from the TrainParentComponent
-  @Input() passangerCount: number;
-
-
-
 }

@@ -11,15 +11,4 @@ export class TrainChildWagon2Component implements OnInit {
 
   ngOnInit() {
   }
-  // Name the wagon by getting the name from parent
-  @Input() name: string;
-
-  // Send the name of the added wagon
-  @Output() addCart = new EventEmitter<string>();
-
-
-  addThisCart(cartName: string) {
-    this.addCart.emit(cartName);
-  }
-
 }

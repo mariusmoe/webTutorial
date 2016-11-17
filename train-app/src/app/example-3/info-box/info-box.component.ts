@@ -9,21 +9,10 @@ import { WagonService } from '../wagon.service';
   styleUrls: ['./info-box.component.css']
 })
 export class InfoBoxComponent implements OnInit {
-   subscription: Subscription;
-   private burningCartList: string[]
 
-  constructor(private wagonService: WagonService) {
-    this.subscription = wagonService.cartOnFire$.subscribe( result => {
-       this.burningCartList = result;
-     });
+  constructor() {
    }
 
   ngOnInit() {
   }
-
-  ngOnDestroy() {
-    // prevent memory leak when component destroyed
-    this.subscription.unsubscribe();
-  }
-
 }

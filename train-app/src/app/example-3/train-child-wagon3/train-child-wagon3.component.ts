@@ -10,14 +10,8 @@ import { WagonService } from '../wagon.service';
 })
 export class TrainChildWagon3Component implements OnInit {
 
-    @Input() name: string;
-
-  constructor(private wagonService: WagonService ) { }
+  constructor() { }
 
   ngOnInit() {
-  }
-
-  sendMessage(name:string){
-    this.wagonService.announceBurningCart(name);
   }
 }
