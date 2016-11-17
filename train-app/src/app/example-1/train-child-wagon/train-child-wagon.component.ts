@@ -11,4 +11,7 @@ export class TrainChildWagonComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  //TODO: Write your code here
+  
 }

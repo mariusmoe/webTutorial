@@ -11,4 +11,7 @@ export class TrainParentComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  //TODO: Write your code here
+
 }

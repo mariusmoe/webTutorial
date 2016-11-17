@@ -15,4 +15,7 @@ export class InfoBoxComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  //TODO: Write your code here
+  
 }
