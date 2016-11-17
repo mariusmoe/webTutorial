@@ -15,8 +15,6 @@ export class WagonService {
   constructor() { }
 
   announceBurningCart(cartName:string){
-    console.log("aaa")
-    console.log(cartName);
     this.burningCartList.push(cartName);
     this.cartOnFireSource.next(this.burningCartList);
   }
