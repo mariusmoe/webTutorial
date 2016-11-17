@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { TrainChildWagonComponent } from '../train-child-wagon/train-child-wagon.component';
 
 @Component({
   selector: 'app-train-parent',
