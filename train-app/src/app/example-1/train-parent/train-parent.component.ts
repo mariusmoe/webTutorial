@@ -14,6 +14,6 @@ export class TrainParentComponent implements OnInit {
 
   wagons:[number] = [20, 40, 50];
 
-  passangerCount:number = 20;
+  //passangerCount:number = 20;
 
 }
