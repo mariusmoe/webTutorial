@@ -14,12 +14,8 @@ export class InfoBoxComponent implements OnInit {
 
   constructor(private wagonService: WagonService) {
     this.subscription = wagonService.cartOnFire$.subscribe( result => {
-       console.log("Got response!");
        this.burningCartList = result;
-
-    }
-
-    )
+     });
    }
 
   ngOnInit() {
