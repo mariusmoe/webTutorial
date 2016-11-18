@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Subscription }   from 'rxjs/Subscription';
 
-import { WagonService } from '../wagon.service';
 
 @Component({
   selector: 'app-info-box',
@@ -10,12 +8,6 @@ import { WagonService } from '../wagon.service';
 })
 export class InfoBoxComponent implements OnInit {
 
-  constructor() {
-   }
-
-  ngOnInit() {
-  }
-
   //TODO: Write your code here
-  
+
 }
