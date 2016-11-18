@@ -14,7 +14,7 @@ export class TrainParent2Component implements OnInit {
 
   train: string[] = []
 
-  availableWagons: string[] = ['passangerCart', 'cargoCart', 'foodCart', 'coffeeCart'];
+  availableWagons: string[] = ['passengerCart', 'cargoCart', 'foodCart', 'coffeeCart'];
 
 
   addCart(cartName: string){
