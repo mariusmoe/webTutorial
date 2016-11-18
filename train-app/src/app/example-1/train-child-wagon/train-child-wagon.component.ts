@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+
 
 @Component({
   selector: 'app-train-child-wagon',
@@ -13,5 +13,5 @@ export class TrainChildWagonComponent implements OnInit {
   }
 
   //TODO: Write your code here
-  
+
 }
