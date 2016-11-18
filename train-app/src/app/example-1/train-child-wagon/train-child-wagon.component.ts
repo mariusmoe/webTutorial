@@ -13,7 +13,7 @@ export class TrainChildWagonComponent implements OnInit {
   }
 
   // This number will be passed down from the TrainParentComponent
-  @Input() passangerCount: number;
+  @Input() passengerCount: number;
 
 
 
