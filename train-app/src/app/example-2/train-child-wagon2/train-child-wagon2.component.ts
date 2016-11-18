@@ -1,4 +1,4 @@
-import { Component, OnInit, EventEmitter, Input, Output } from '@angular/core';
+
 
 @Component({
   selector: 'app-train-child-wagon2',
@@ -13,5 +13,5 @@ export class TrainChildWagon2Component implements OnInit {
   }
 
   //TODO: Write your code here
-  
+
 }
